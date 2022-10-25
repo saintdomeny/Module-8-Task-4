@@ -50,7 +50,7 @@ namespace FinalTask
                                 string line;
                                 while ((line = sr.ReadLine()) != null)
                                 {
-                                    if(line.Contains($"{student[i].Name}, {student[i].DateOfBirth.ToString("dd/MM/yyyy")}"))
+                                    if (line.Contains($"{student[i].Name}, {student[i].DateOfBirth.ToString("dd/MM/yyyy")}"))
                                     {
                                         exists = true;
                                     }
